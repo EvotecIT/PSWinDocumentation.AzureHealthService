@@ -1,7 +1,7 @@
 ﻿Import-Module .\PSWinDocumentation.AzureHealthService.psd1 -Force
 
 $Azure = Get-WinAzureHealth -Formatted
-$Azure
+$Azure.Europe | Format-Table -AutoSize
 
 New-HTML {
     foreach ($Region in $Azure.Keys) {
