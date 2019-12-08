@@ -6,7 +6,7 @@ $O365 = Get-Office365Health -ApplicationID $ApplicationID -ApplicationKey $Appli
 $Azure = Get-WinAzureHealth -Formatted
 $O365.CurrentStatusExtended | Format-Table -AutoSize
 
-Dashboard -FilePath $PSScriptRoot\Health.html {
+Dashboard -FilePath $PSScriptRoot\Output\AzureAndO365Health.html {
     Tab -Name 'Azure' {
         foreach ($Region in $Azure.Keys) {
             Tab -Name $Region {

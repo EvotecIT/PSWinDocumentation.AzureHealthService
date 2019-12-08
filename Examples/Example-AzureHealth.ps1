@@ -17,4 +17,4 @@ New-HTML {
             }
         }
     }
-} -FilePath $PSScriptRoot\AzureHealth.Html -UseCssLinks -UseJavaScriptLinks -TitleText 'Azure' -ShowHTML
+} -FilePath $PSScriptRoot\Output\AzureHealth.Html -UseCssLinks -UseJavaScriptLinks -TitleText 'Azure' -ShowHTML
