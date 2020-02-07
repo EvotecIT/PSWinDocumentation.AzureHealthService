@@ -19,3 +19,6 @@
 
 # PSWinDocumentation.AzureHealthService - PowerShell Module
 
+Full description of this project: [Getting Azure Health by parsing HTML using PSParseHTML](https://evotec.xyz/getting-azure-health-parsing-html-website-using-psparsehtml).
+
+For now only **external** health is supported.
